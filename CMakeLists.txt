@@ -10,6 +10,7 @@ project(${PROJECT})
 
 #libs
 find_package(SFML COMPONENTS system window graphics CONFIG REQUIRED)
+ find_package(ImGui-SFML CONFIG REQUIRED)
 
 
 #src
