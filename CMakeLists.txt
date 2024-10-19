@@ -8,4 +8,9 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(PROJECT FrozenSpace)
 project(${PROJECT})
 
+#libs
+find_package(SFML COMPONENTS system window graphics CONFIG REQUIRED)
+
+
+#src
 add_subdirectory(src)
